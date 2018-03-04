@@ -5,7 +5,8 @@ Simple NFC Android app created with Unity.
 The project was build using Unity 2017.3.1f1 and tested on the Samsung Galaxy S7.  
 
 
-Feel free to use this project to create your own Unity Android app which can read out NFC tags. You can also download the pre build .apk and install it on your device.  
+Feel free to use this project to create your own Unity Android app which can read out NFC tags. 
+You can also download and install the .apk file which is a samll demo app making a cube dissapear when scanning a NFC tag.  
 
 This app is not able to write informations onto NFC tags. Feel free to add this functionality yourself if you like.
 
