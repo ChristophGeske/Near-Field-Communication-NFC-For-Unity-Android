@@ -10,7 +10,7 @@ You can also download and install the .apk file which is a samll demo app making
 
 This app is not able to write informations onto NFC tags. Feel free to add this functionality yourself if you like.
 
-On the Samsung Galaxy S7 the distance to the NFC tag needs to be less than 4 cm for reading it out.
+On the Samsung Galaxy S7 the distance to the NFC tag needs to be less than 4 cm for reading. You can find NFC tags on books, your travel passport, VISA cards or your mensa card. You can read out all these tags with the NFC module in your phone. Installing the app found here in the repository allows your phone to detect all these tags and make the cube in the app dissapear. 
 
 Credit:
 
