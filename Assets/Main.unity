@@ -20,6 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -124,6 +125,7 @@ GameObject:
   - component: {fileID: 4194547}
   - component: {fileID: 4194546}
   - component: {fileID: 4194545}
+  - component: {fileID: 4194550}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -204,13 +206,24 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 4194544}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.37473205, y: -0.34202063, z: 0.10055719, w: 0.855854}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.4687103, y: 0.4687103, z: 0.4687103}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -34.935, y: -53.712, z: 31.509}
+--- !u!114 &4194550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 4194544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3a6e5dc7ea00d44a2e57008b8bdbdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &586551320
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,8 +321,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 155.25, y: -74.9}
-  m_SizeDelta: {x: 712.4, y: 149.8}
+  m_AnchoredPosition: {x: 28.1, y: -34}
+  m_SizeDelta: {x: 1088.8, y: 514}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1038963406
 MonoBehaviour:
@@ -332,7 +345,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 33
+    m_FontSize: 88
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -343,7 +356,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: HERE ARE THE NFC DATA
+  m_Text: The tasks will appear here.
 --- !u!222 &1038963407
 CanvasRenderer:
   m_ObjectHideFlags: 0

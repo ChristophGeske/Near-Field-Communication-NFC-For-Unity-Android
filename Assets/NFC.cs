@@ -17,7 +17,7 @@ public class NFC : MonoBehaviour {
 
 
 	void Start() {
-		tag_output_text.text = "No tag...";
+		tag_output_text.text = "Scan a NFC tag to make the cube disappear...";
 	}
 
 	void Update() {
@@ -38,8 +38,8 @@ public class NFC : MonoBehaviour {
 						if (mNdefMessage != null) {
 							byte[] payLoad = mNdefMessage.Call<byte[]>("getId");
 							string text = System.Convert.ToBase64String(payLoad);
-							tag_output_text.text = text + "HereWeAre";
-							Destroy (GetComponent("MeshRenderer")); //Destroy when ID is displayed
+							tag_output_text.text = "This is your tag text: " + text;
+							Destroy (GetComponent("MeshRenderer")); //Destroy Box when NFC ID is displayed
 							tagID = text;
 						}
 						else {
@@ -52,7 +52,7 @@ public class NFC : MonoBehaviour {
 						Debug.Log("This type of tag is not supported !");
 					}
 					else {
-						tag_output_text.text = "No tag...";
+						tag_output_text.text = "Scan a NFC tag to make the cube disappear...";
 						return;
 					}
 				}
@@ -61,9 +61,6 @@ public class NFC : MonoBehaviour {
 					tag_output_text.text = text;
 				}
 			}
-		}
-		if (tagFound) {
-			Destroy (GetComponent("MeshRenderer"));
 		}
 	}
 }
