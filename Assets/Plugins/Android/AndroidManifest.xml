@@ -13,7 +13,7 @@
       android:name="android.hardware.nfc"
       android:required="true" />
  
-    <uses-sdk android:minSdkVersion="24"/>
+    <uses-sdk android:minSdkVersion="21"/>
 
     <supports-screens
         android:smallScreens="true"

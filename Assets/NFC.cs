@@ -25,9 +25,9 @@ public class NFC : MonoBehaviour {
 			if (!tagFound) {
 				try {
 					// Create new NFC Android object
-					mActivity = new AndroidJavaClass("com.unity3d.player.UnityPlayer").GetStatic<AndroidJavaObject>("currentActivity");
+					mActivity = new AndroidJavaClass("com.unity3d.player.UnityPlayer").GetStatic<AndroidJavaObject>("currentActivity"); // Activities open apps
 					mIntent = mActivity.Call<AndroidJavaObject>("getIntent");
-					sAction = mIntent.Call<String>("getAction");
+					sAction = mIntent.Call<String>("getAction"); // resulte are returned in the Intent object
 					if (sAction == "android.nfc.action.NDEF_DISCOVERED") {
 						Debug.Log("Tag of type NDEF");
 					}
@@ -38,7 +38,7 @@ public class NFC : MonoBehaviour {
 						if (mNdefMessage != null) {
 							byte[] payLoad = mNdefMessage.Call<byte[]>("getId");
 							string text = System.Convert.ToBase64String(payLoad);
-							tag_output_text.text = "This is your tag text: " + text;
+							tag_output_text.text += "This is your tag text: " + text; 
 							Destroy (GetComponent("MeshRenderer")); //Destroy Box when NFC ID is displayed
 							tagID = text;
 						}
@@ -46,6 +46,7 @@ public class NFC : MonoBehaviour {
 							tag_output_text.text = "No ID found !";
 						}
 						tagFound = true;
+						// How to read multiple tags maybe with this line mIntent.Call("removeExtra", "android.nfc.extra.TAG");
 						return;
 					}
 					else if (sAction == "android.nfc.action.TAG_DISCOVERED") {
