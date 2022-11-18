@@ -2,7 +2,7 @@
 Simple NFC Android app created with Unity.
 
 
-The project was build using Unity 2017.3.1f1 and tested on the Samsung Galaxy S7.  
+The project was originally developed by ChristopheGeske using Unity 2017.3.1f1 and updated to Unity 2021.3.5f1 by liswifi. Updated project has been tested using a Galaxy S10 running Android 12.
 
 
 Feel free to use this project to create your own Unity Android app which can read out NFC tags. 
