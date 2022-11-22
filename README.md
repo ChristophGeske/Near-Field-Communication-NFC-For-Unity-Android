@@ -14,7 +14,5 @@ On the Samsung Galaxy S7 the distance to the NFC tag needs to be less than 4 cm 
 
 Also make sure to enable NFC in the phone settings.
 
-Credit:
-
 This project was inspired by this forum discussion. Check it out to learn more about the code and how to scan multiple tags. 
 https://forum.unity.com/threads/nfc-for-android-unity-5-6.485551/
