@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpriteAtlas_UIMain
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: fcb1da5d655093547a4c61d6963ceaa2, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -830426264, guid: fcb1da5d655093547a4c61d6963ceaa2, type: 3}
+  - {fileID: -1495320588, guid: fcb1da5d655093547a4c61d6963ceaa2, type: 3}
+  - {fileID: -277022781, guid: fcb1da5d655093547a4c61d6963ceaa2, type: 3}
+  - {fileID: 1900894364, guid: fcb1da5d655093547a4c61d6963ceaa2, type: 3}
+  - {fileID: 1528026289, guid: fcb1da5d655093547a4c61d6963ceaa2, type: 3}
+  - {fileID: 1316796088, guid: fcb1da5d655093547a4c61d6963ceaa2, type: 3}
+  - {fileID: -1420221806, guid: fcb1da5d655093547a4c61d6963ceaa2, type: 3}
+  - {fileID: 1947027691, guid: fcb1da5d655093547a4c61d6963ceaa2, type: 3}
+  - {fileID: -1790977294, guid: fcb1da5d655093547a4c61d6963ceaa2, type: 3}
+  - {fileID: -2067650669, guid: fcb1da5d655093547a4c61d6963ceaa2, type: 3}
+  - {fileID: 1760174300, guid: fcb1da5d655093547a4c61d6963ceaa2, type: 3}
+  - {fileID: -614812296, guid: fcb1da5d655093547a4c61d6963ceaa2, type: 3}
+  - {fileID: -903983451, guid: fcb1da5d655093547a4c61d6963ceaa2, type: 3}
+  - {fileID: -1772813046, guid: fcb1da5d655093547a4c61d6963ceaa2, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - T_UIEmotionSad
+  - T_UILevelBarBG
+  - T_UIEmotionNeutral
+  - T_UILevelBarFull
+  - T_UICameraBar
+  - T_UICalendarIcon
+  - T_UIExitIcon
+  - T_UIGuideBar
+  - T_UIGuideIcon
+  - T_UICameraIcon
+  - T_UIEmotionBar
+  - T_UICalendarBar
+  - T_UIStepsText
+  - T_UIEmotionHappy
+  m_RenderDataMap: {}
+  m_Tag: SpriteAtlas_UIMain
+  m_IsVariant: 0
